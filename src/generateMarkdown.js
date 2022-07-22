@@ -8,25 +8,25 @@ function renderLicenseBadge(license) {
     return '';
   }
   else if (license === 'MIT License') {
-    badgeImg = 'https://img.shields.io/badge/License-MIT-yellow.svg';
+    badgeImg = '![GitHub license bade](https://img.shields.io/badge/License-MIT-yellow.svg)';
   }
   else if (license === 'GNU AGPLv3') {
-    badgeImg = 'https://img.shields.io/badge/License-GPL_v2-blue.svg';
+    badgeImg = '![GitHub license bade](https://img.shields.io/badge/License-GPL_v2-blue.svg)';
   }
   else if (license === 'Mozilla Public License 2.0') {
-    badgeImg = 'https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg';
+    badgeImg = '![GitHub license bade](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)';
   }
   else if (license === 'Apache License 2.0') {
-    badgeImg = 'https://img.shields.io/badge/License-Apache_2.0-blue.svg';
+    badgeImg = '![GitHub license bade](https://img.shields.io/badge/License-Apache_2.0-blue.svg)';
   }
   else if (license === 'Boost Software License 1.0') {
-    badgeImg = 'https://img.shields.io/badge/License-Boost_1.0-lightblue.svg';
+    badgeImg = '![GitHub license bade](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)';
   }
   else if (license === 'The Unlicense') {
-    badgeImg = 'https://img.shields.io/badge/license-Unlicense-blue.svg';
+    badgeImg = '![GitHub license bade](https://img.shields.io/badge/license-Unlicense-blue.svg)';
   }
 
-}
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -52,7 +52,7 @@ function renderLicenseLink(license) {
   else if (license === 'The Unlicense') {
     licenseLink = 'http://unlicense.org/';
   }
-}
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -64,12 +64,10 @@ function renderLicenseSection(license) {
   else {
     return '';
   }
-}
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  const { projTitle, description, ...questionsEmail } = data;
-  console.log(projTitle, "project title destructured");
   renderLicenseBadge(data.licenses);
   renderLicenseLink(data.licenses);
 
@@ -106,6 +104,6 @@ function generateMarkdown(data) {
   * [GitHub](https://github.com/${data.questionsUserName})
   * [Email](${data.questionsEmail})
 `;
-}
+};
 
 module.exports = generateMarkdown;
