@@ -1,24 +1,33 @@
+ # Read Me Generator
 
-  # ReadMe
+  
 
   ## Description
-  generator
+  A readme generator using node.js 
 
   ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ## Installation
-  npm init
+  IDE and node.js
 
   ## Usage
-  dkal
+  From the command line in a terminal type node index to have a high quaility readme generated for you.
+
+  
+  
 
   ## Contributing
-  dklaj
+  Please submit a GitHub issue for any suggestions.
 
   ## Tests
-  dlawkj
+  No tests.
 
   ## Questions
   If you have further quetions please contact me here:
-  * [GitHub](https://github.com/ocean)
-  * [Email]<ocean@email.com>
+  * [GitHub](https://github.com/oceanlatte)
+  * [Email](ocean.veliz@gmail.com)
