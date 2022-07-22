@@ -1,6 +1,6 @@
  # ReadMe Generator
 
-  ![GitHub license bade](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+  ![GitHub license bade](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
   A command line readme generator made with node.js. This will enable to user to create a high quaility readme file without having to type it out.
@@ -19,7 +19,7 @@
   From the terminal type "node index" to get started.
 
   ## License
-  This project is licensed under the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0) license.
+  This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) license.
   
   ## Contributing
   Please submit a GitHub issue if there are any suggestions.

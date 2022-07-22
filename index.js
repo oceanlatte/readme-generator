@@ -70,6 +70,9 @@ function writeToFile(fileName, data) {
       console.log(err);
       return;
     }
+    else {
+      console.log('Readme generated succesfully!');
+    }
   });
 }
 
@@ -79,7 +82,7 @@ const init = () => {
     console.log("returned question response data:", questionResponse);
     const responseData = markdown(questionResponse);
     console.log("returned markdown generaged from response data:", responseData);
-    writeToFile("README.md", responseData);
+    writeToFile("./dist/README.md", responseData);
   });
 };
 
