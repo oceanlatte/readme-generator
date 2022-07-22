@@ -24,7 +24,6 @@ const questions = [
     type: "input",
     name: "usage",
     message: "Provide instructions and examples on how to use your project:",
-    // ADD: images instructions? and question for gitHub repo name (then use template literal to insert link)
   },
   {
     type: "list",

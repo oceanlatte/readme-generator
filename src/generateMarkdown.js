@@ -1,12 +1,9 @@
 let badgeImg = '';
-let licenseSection = '';
 let licenseLink = '';
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  console.log('license choice here', license);
- 
   if (license === 'No license') {
     return '';
   }
@@ -62,7 +59,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'No license') {
     return `## License
-    This project is licensed under the [${license}](${licenseLink}) license.`;
+  This project is licensed under the [${license}](${licenseLink}) license.`;
   }
   else {
     return '';
@@ -71,7 +68,8 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log(data);
+  const { projTitle, description, ...questionsEmail } = data;
+  console.log(projTitle, "project title destructured");
   renderLicenseBadge(data.licenses);
   renderLicenseLink(data.licenses);
 
@@ -85,7 +83,7 @@ function generateMarkdown(data) {
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contribution](#contributing)
+  - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
 
