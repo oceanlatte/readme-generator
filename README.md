@@ -14,13 +14,15 @@ This is a command-line ReadMe generator made with Node.js. This will enable to u
 npm i --save inquirer@8.2.4
 
 ## Usage
+[Demonstration Video](https://drive.google.com/file/d/1CqOAmYp6ckWex2xl3n4DwclY0k6ltCvE/view)  
 This application is intended for other develops to use via IDE or terminal. Once installation is complete please type the following to get started:
 > node index
+
 
 ## License
 This project is licensed under the [The Unlicense](http://unlicense.org/) license.
 
 ## Contributors
-A big thank you to my tutor Carlin Shaw for assisting me with understanding Node.js and helping with set up! 
+A big thank you to my tutor, Carlin Shaw, for assisting me with understanding Node.js and helping with set up! 
 
 
