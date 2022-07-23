@@ -10,8 +10,7 @@ This is a command-line ReadMe generator made with Node.js. This will enable to u
 - Inquirer.js
 
 ## Installation
-> npm init  
-npm i --save inquirer@8.2.4
+> npm i 
 
 ## Usage
 This application is intended for other develops to use via IDE or terminal. Once installation is complete please type the following to get started:
